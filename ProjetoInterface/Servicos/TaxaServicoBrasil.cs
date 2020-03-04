@@ -1,7 +1,8 @@
-﻿//CLASSE DO TIPO SERVIÇO
+﻿//CLASSE DO TIPO SERVIÇO **modificado**
 
 namespace ProjetoInterface.Servicos {
-    class TaxaServicoBrasil {
+    //adicionado uma herança
+    class TaxaServicoBrasil : ITaxaServico {
 
         public double Taxa(double montante) {
             //se o montante for abaixo de 100 reais
